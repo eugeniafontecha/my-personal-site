@@ -1,4 +1,5 @@
 body {
+    color: #40514E;
     font-family: 'Quattrocento Sans', sans-serif;    
     margin: 0;
     text-align: center;
@@ -46,7 +47,6 @@ h3 {
     top: 20%;
 }
 
-
 .bottom-flower {
     height: 140px;
     position: absolute;
@@ -56,8 +56,8 @@ h3 {
 
 .middle-container {
     background-color: #FFF8F3;
-    padding-top: 100px;
     padding-bottom: 70px;
+    padding-top: 100px;    
 }
 
 .profile-img {    
@@ -65,7 +65,6 @@ h3 {
 }
 
 .presentation {
-    color: #40514E;
     line-height: 2;
     margin: auto;
     width: 30%;
@@ -131,7 +130,7 @@ figure > img {
 }
 
 .btn {
-    background-color: #4FBDBA;
+    background-image: linear-gradient(to bottom, #04cfc5 0%, #06beb6   51%, #05aaa2  100%);
     border-radius: 10px;
     color: #FFF8F3;
     font-size: 1.1rem;
@@ -141,6 +140,12 @@ figure > img {
     height: 100px;
     text-decoration: none;
 }
+
+.btn:hover {
+    background-image: linear-gradient(to bottom, #1ae4da 0%, #07ccc2   51%, #0bb8af  100%);
+    
+}
+
 
 .bottom-container {
     background-color: #7C99AC;
@@ -157,7 +162,7 @@ figure > img {
 
 }
 
-.signature {
+.copyright {
     color: #cbd5dd;
     font-size: 0.9rem;
     font-weight: 800;
@@ -175,44 +180,7 @@ a {
     text-decoration: none;
 }
 
-/*
-figure{
-    background-color: #7C99AC;
-    display:block;    
-    width:150px;
-    height: 150px;
-    border-radius: 50%;
-    margin: auto;
-
+a:hover {
+    color: #207697;
 }
-
-img.skill-profile {
-    display:inline-block;
-    margin: auto;
-    height: 100px;
-    vertical-align: middle;
-}
-*/
-
-/*
-    #92A9BD
-    #7C99AC
-
-*/
-
-/*
-.development-description {
-    clear: left;
-}
-
-.data-science-description {
-    clear: right;
-}
-
-.bottom-container {
-    background-color: #7C99AC;
-    padding-top:5px;
-    padding-bottom:5px;
-}
-*/
 
